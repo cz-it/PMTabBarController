@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210AB7E01DE33BAC00D38156 /* PMTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210AB7DD1DE33B9000D38156 /* PMTabBarController.framework */; };
+		210AB7E11DE33BD100D38156 /* PMTabBarController.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 210AB7DD1DE33B9000D38156 /* PMTabBarController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F0C440EE1DE2BDB7000134F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C440ED1DE2BDB7000134F8 /* main.m */; };
 		F0C440F11DE2BDB7000134F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C440F01DE2BDB7000134F8 /* AppDelegate.m */; };
 		F0C440F41DE2BDB7000134F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C440F31DE2BDB7000134F8 /* ViewController.m */; };
@@ -15,12 +17,25 @@
 		F0C440FC1DE2BDB7000134F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C440FA1DE2BDB7000134F8 /* LaunchScreen.storyboard */; };
 		F0C441071DE2BDB7000134F8 /* PMTabBarControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C441061DE2BDB7000134F8 /* PMTabBarControllerDemoTests.m */; };
 		F0C441121DE2BDB7000134F8 /* PMTabBarControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C441111DE2BDB7000134F8 /* PMTabBarControllerDemoUITests.m */; };
-		F0C441391DE2BF08000134F8 /* PMTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C441381DE2BF08000134F8 /* PMTabBarController.framework */; };
 		F0C4417A1DE2CF59000134F8 /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = F0C441781DE2CF59000134F8 /* pic.png */; };
 		F0C4417B1DE2CF59000134F8 /* pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0C441791DE2CF59000134F8 /* pic@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		210AB7DC1DE33B9000D38156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210AB7D71DE33B9000D38156 /* PMTabBarController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F0C440941DE293D3000134F8;
+			remoteInfo = PMTabBarController;
+		};
+		210AB7DE1DE33B9000D38156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210AB7D71DE33B9000D38156 /* PMTabBarController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F0C4409D1DE293D3000134F8;
+			remoteInfo = PMTabBarControllerTests;
+		};
 		F0C441031DE2BDB7000134F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F0C440E11DE2BDB7000134F8 /* Project object */;
@@ -37,7 +52,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		210AB7D41DE33B3100D38156 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				210AB7E11DE33BD100D38156 /* PMTabBarController.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		210AB7D21DE33B1D00D38156 /* PMTabBarController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PMTabBarController.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/PMTabBarController-afxqibjharwuwibvuudkjktuegop/Build/Products/Debug-iphoneos/PMTabBarController.framework"; sourceTree = "<group>"; };
+		210AB7D71DE33B9000D38156 /* PMTabBarController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PMTabBarController.xcodeproj; path = ../../PMTabBarController.xcodeproj; sourceTree = "<group>"; };
 		F0C440E91DE2BDB7000134F8 /* PMTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C440ED1DE2BDB7000134F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0C440EF1DE2BDB7000134F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C441391DE2BF08000134F8 /* PMTabBarController.framework in Frameworks */,
+				210AB7E01DE33BAC00D38156 /* PMTabBarController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +116,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		210AB7D81DE33B9000D38156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210AB7DD1DE33B9000D38156 /* PMTabBarController.framework */,
+				210AB7DF1DE33B9000D38156 /* PMTabBarControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F0C440E01DE2BDB7000134F8 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +149,7 @@
 		F0C440EB1DE2BDB7000134F8 /* PMTabBarControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				210AB7D71DE33B9000D38156 /* PMTabBarController.xcodeproj */,
 				F0C441761DE2CF59000134F8 /* Resource */,
 				F0C440EF1DE2BDB7000134F8 /* AppDelegate.h */,
 				F0C440F01DE2BDB7000134F8 /* AppDelegate.m */,
@@ -152,6 +193,7 @@
 		F0C441371DE2BF08000134F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				210AB7D21DE33B1D00D38156 /* PMTabBarController.framework */,
 				F0C441381DE2BF08000134F8 /* PMTabBarController.framework */,
 			);
 			name = Frameworks;
@@ -184,6 +226,7 @@
 				F0C440E51DE2BDB7000134F8 /* Sources */,
 				F0C440E61DE2BDB7000134F8 /* Frameworks */,
 				F0C440E71DE2BDB7000134F8 /* Resources */,
+				210AB7D41DE33B3100D38156 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -241,7 +284,7 @@
 				TargetAttributes = {
 					F0C440E81DE2BDB7000134F8 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 7ARWKX4JSR;
+						DevelopmentTeam = 744J327599;
 						ProvisioningStyle = Automatic;
 					};
 					F0C441011DE2BDB7000134F8 = {
@@ -269,6 +312,12 @@
 			mainGroup = F0C440E01DE2BDB7000134F8;
 			productRefGroup = F0C440EA1DE2BDB7000134F8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 210AB7D81DE33B9000D38156 /* Products */;
+					ProjectRef = 210AB7D71DE33B9000D38156 /* PMTabBarController.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F0C440E81DE2BDB7000134F8 /* PMTabBarControllerDemo */,
@@ -277,6 +326,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		210AB7DD1DE33B9000D38156 /* PMTabBarController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PMTabBarController.framework;
+			remoteRef = 210AB7DC1DE33B9000D38156 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		210AB7DF1DE33B9000D38156 /* PMTabBarControllerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PMTabBarControllerTests.xctest;
+			remoteRef = 210AB7DE1DE33B9000D38156 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F0C440E71DE2BDB7000134F8 /* Resources */ = {
@@ -461,7 +527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7ARWKX4JSR;
+				DEVELOPMENT_TEAM = 744J327599;
 				HEADER_SEARCH_PATHS = "../../Objective-C/";
 				INFOPLIST_FILE = PMTabBarControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -474,7 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7ARWKX4JSR;
+				DEVELOPMENT_TEAM = 744J327599;
 				HEADER_SEARCH_PATHS = "../../Objective-C/";
 				INFOPLIST_FILE = PMTabBarControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

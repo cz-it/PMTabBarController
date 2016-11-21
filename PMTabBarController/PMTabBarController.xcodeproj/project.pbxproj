@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F0C4409E1DE293D3000134F8 /* PMTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C440941DE293D3000134F8 /* PMTabBarController.framework */; };
 		F0C440A31DE293D3000134F8 /* PMTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C440A21DE293D3000134F8 /* PMTabBarControllerTests.m */; };
-		F0C440DE1DE2BABA000134F8 /* PMTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C440DC1DE2BABA000134F8 /* PMTabBarController.h */; };
+		F0C440DE1DE2BABA000134F8 /* PMTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C440DC1DE2BABA000134F8 /* PMTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0C440DF1DE2BABA000134F8 /* PMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C440DD1DE2BABA000134F8 /* PMTabBarController.m */; };
 /* End PBXBuildFile section */
 

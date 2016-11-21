@@ -27,10 +27,13 @@
     [v2.view setBackgroundColor:[UIColor blueColor]];
     _rootVC.viewControllers = @[v1, v2];
     
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeContactAdd];
-    [_rootVC insertView:btn atIndex:1];
-    UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeContactAdd];
-    [_rootVC insertView:btn2 atIndex:2];
+//    UIButton *btn = [UIButton buttonWithType:UIButtonTypeContactAdd];
+//    [_rootVC insertView:btn atIndex:1];
+
+    UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeSystem];
+    [btn2 setFrame:CGRectMake(0, 0, 60, 60)];
+    [btn2 setBackgroundColor:[UIColor darkGrayColor]];
+    [_rootVC insertView:btn2 atIndex:1];
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = _rootVC;

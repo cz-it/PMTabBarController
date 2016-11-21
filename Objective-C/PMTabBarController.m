@@ -71,16 +71,16 @@
 
     [view setFrame:CGRectMake(x, y, width, height)];
     //view.userInteractionEnabled = NO; //no need
-    [view setBackgroundColor:[UIColor greenColor]];
+    //[view setBackgroundColor:[UIColor greenColor]];
 }
 
 - (void) addItemView : (UIView *) view {
     int unitNum = _masks.count + self.viewControllers.count;
-    float unitW = self.tabBar.frame.size.width/(unitNum>0?unitNum:1);
-    float x = (unitW - view.frame.size.width) /2;
+    float unitW = (self.tabBar.frame.size.width)/(unitNum>0?unitNum:1);
+    float x =16+ (unitW - view.frame.size.width) /2;
     x = x>0 ? x:0;
     float y = (self.tabBar.frame.size.height - view.frame.size.height)/2;
-    y = y>0 ? y : -2*y;
+    y = y>0 ? y : y;
     float width = view.frame.size.width;
     float height = view.frame.size.height;
     [view setFrame:CGRectMake(x, y, width, height)];    
